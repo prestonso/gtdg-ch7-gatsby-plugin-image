@@ -6,6 +6,8 @@ export default function Home() {
     <StaticImage
       src="../images/pikes-peak.jpg"
       alt="Pikes Peak, known as Tava in the Ute language and Heey-otoyoo' in the Arapaho language"
+      placeholder="blurred"
+      layout="fixed"
     />
   )
 }
